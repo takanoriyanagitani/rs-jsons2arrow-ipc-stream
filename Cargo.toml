@@ -3,6 +3,18 @@ name = "rs-jsons2arrow-ipc-stream"
 version = "0.1.0"
 edition = "2024"
 
+description = "Converts the json lines to an arrow ipc stream."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-jsons2arrow-ipc-stream"
+homepage = "https://github.com/takanoriyanagitani/rs-jsons2arrow-ipc-stream"
+documentation = "https://docs.rs/rs-jsons2arrow-ipc-stream/latest"
+keywords = ["arrow", "ipc", "stream", "json"]
+
+exclude = [
+	"rs-jsons2arrow-ipc-stream.wasm",
+	"rs-jsons2arrow-ipc-stream",
+]
+
 [lints.rust]
 unsafe_code = "forbid"
 
